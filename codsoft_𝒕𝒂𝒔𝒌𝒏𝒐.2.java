@@ -7,6 +7,7 @@ class StudentMarks{
         float tm = 0;
         float tap = 0;
         float ap;
+        System.out.println("Enter the marks");
         for(int i=0;i<n;i++){
             float m = sc.nextFloat();
             tm = tm + m;
